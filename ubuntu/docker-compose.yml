@@ -1,0 +1,11 @@
+version: '3'
+services:
+  app:
+    image: cityuderek/ubuntu
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: bash
+    stdin_open: true # equivalent to -i
+    tty: true        # equivalent to -t
+    remove: true     # equivalent to --rm (note: this is not a direct option, but Compose removes services by default when stopped)
