@@ -1,6 +1,6 @@
 # docker-images
 
-Some Dockerfiles for general use
+Some docker images with common dev tools for saving time.
 
 ## cityuderek/ubuntu
 
